@@ -1,0 +1,68 @@
+body{
+    background-color:#d6dbdb;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: center;
+  }
+
+.main {
+    width: 50%;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.formOne{
+    border: 1px solid black;
+    background-color: #bac1bb;
+}
+
+.result{
+    display: flex;
+    flex-direction: row;
+    border-top: none;
+    border-bottom: none;
+}
+.results{
+    flex:1;
+    /* height:45px; */
+    border: 1px solid black;
+    background-color: #bac1bb;
+}
+
+
+.resultTotal{
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+ul{
+    list-style: none;
+}
+
+.newValue, .main_input, .show-more, .btn{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=number]:hover{
+    background-color:white;
+    border-color: black;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.hide{
+    display: none;
+}
+
+.show-more{
+    width:100%;
+}
