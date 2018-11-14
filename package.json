@@ -1,0 +1,25 @@
+{
+  "name": "cashout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stupop010/cashup.git"
+  },
+  "author": "Stuart Doney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stupop010/cashup/issues"
+  },
+  "homepage": "https://github.com/stupop010/cashup#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
