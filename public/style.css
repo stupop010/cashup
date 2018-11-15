@@ -11,6 +11,10 @@ body{
     width: 50%;
 }
 
+footer{
+    text-align: center
+}
+
 .form-group {
     margin-bottom: 0px;
 }
