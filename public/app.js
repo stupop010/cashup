@@ -29,8 +29,8 @@ function cash_up(e){
    total.innerText = sum.toFixed(2);
 
    let diff = diffence();
-    diffents.innerText = diff
-   } 
+    diffents.innerText = diff;
+   }
 
    document.getElementById('totalcards').textContent = cashUp.length
    e.preventDefault();
